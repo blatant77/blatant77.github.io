@@ -19,7 +19,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url('assets/bg2.jpg');
+    /* background-image: url('assets/bg2.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -38,6 +38,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #FFA500;
 }
 
 .name-div {
@@ -56,15 +57,15 @@ body {
     font-family: "Comfortaa";
     font-weight: 300;
     margin-top: 20px;
-    color: white;
+    color: black;
     text-shadow: 1px 1px black;
 }
 .body-title {
     margin: 20px;
-    font-family: 'Franklin Gothic Medium';
+    color: black;
 }
-.thick {margin-right: -4px; padding: 0px; font-family: NimbusSanL-Bol;} 
-.thin {margin: -4px; padding: 0px;font-family: NimbusSanL-Reg;}
+.thick {font-family: NimbusSanL-Bol;} 
+.thin {font-family: NimbusSanL-Reg;}
 .image {
     width: 100%;
     height: auto;
