@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: url("assets/Comfortaa-VariableFont_wght.ttf");
+    }
+@font-face {
+    font-family: "NimbusSanL-Bol";
+    src: url("assets/NimbusSanL-Bol.otf");
+    }
+@font-face {
+    font-family: "NimbusSanL-Reg";
+    src: url("assets/NimbusSanL-Reg.otf");
+    }
+@font-face {
+    font-family: "ArchivoBlack";
+    src: url("assets/ArchivoBlack-Regular.ttf");
+    }
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('assets/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.wrapper {
+    height: 100%;
+    background-color: black;
+    background: rgba(0,0,0,0.5);
+    background-size: cover;
+    flex: 1;
+}
+.big {
+    padding: 0;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name-div {
+  /* border: 3px solid green; */
+  text-align: center;
+}
+.name {
+    display: inline;
+    color: white;
+    padding: 5px;
+    font-size: 48pt; 
+    font-family: "Comfortaa";
+    font-weight: 800;
+}
+.desc {
+    font-family: "Comfortaa";
+    font-weight: 300;
+    margin-top: 20px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.body-title {
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium';
+}
+.thick {margin-right: -4px; padding: 0px; font-family: NimbusSanL-Bol;} 
+.thin {margin: -4px; padding: 0px;font-family: NimbusSanL-Reg;}
+.image {
+    width: 100%;
+    height: auto;
+}
+
